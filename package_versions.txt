@@ -146,7 +146,7 @@ libgirepository-1.0-11.56.1-1
 libgl11.0.0-2ubuntu2.3
 libgl1-mesa-dri20.0.8-0ubuntu1~18.04.1
 libglapi-mesa20.0.8-0ubuntu1~18.04.1
-libglib2.0-02.56.4-0ubuntu0.18.04.7
+libglib2.0-02.56.4-0ubuntu0.18.04.8
 libglvnd01.0.0-2ubuntu2.3
 libglx01.0.0-2ubuntu2.3
 libglx-mesa020.0.8-0ubuntu1~18.04.1
@@ -276,7 +276,7 @@ libssh-40.8.0~20170825.94fa1e38-1ubuntu0.7
 libssl1.11.1.1-1ubuntu2.1~18.04.8
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.44
+libsystemd0237-3ubuntu10.45
 libtasn1-64.13-2
 libtdb11.3.15-2
 libtelepathy-glib00.24.1-2
@@ -285,7 +285,7 @@ libthai-data0.1.27-2
 libtheora01.1.1+dfsg.1-14
 libtiff54.0.9-5ubuntu0.4
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.44
+libudev1237-3ubuntu10.45
 libunistring20.9.9-0ubuntu2
 libusb-1.0-02:1.0.21-2
 libusbredirhost10.7.1-1
@@ -420,7 +420,7 @@ tzdata2021a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
-udev237-3ubuntu10.44
+udev237-3ubuntu10.45
 util-linux2.31.1-0.4ubuntu3.7
 x11-apps7.7+6ubuntu1
 x11-common1:7.7+19ubuntu7.1
