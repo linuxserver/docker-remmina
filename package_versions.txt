@@ -228,7 +228,7 @@ libphodav-2.0-common2.2-2
 libpipeline11.5.0-1
 libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
-libpolkit-gobject-1-00.105-20ubuntu0.18.04.5
+libpolkit-gobject-1-00.105-20ubuntu0.18.04.6
 libprocps62:3.3.12-3ubuntu1.2
 libproxy1v50.4.15-1ubuntu0.2
 libpsl50.19.1-5build1
