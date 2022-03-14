@@ -124,7 +124,7 @@ libegl1-mesa20.0.8-0ubuntu1~18.04.1
 libegl-mesa020.0.8-0ubuntu1~18.04.1
 libelf10.170-0.4ubuntu0.1
 libepoxy01.4.3-1
-libexpat12.2.5-3ubuntu0.4
+libexpat12.2.5-3ubuntu0.7
 libext2fs21.44.1-1ubuntu1.3
 libfdisk12.31.1-0.4ubuntu3.7
 libffi63.2.1-8
@@ -363,7 +363,7 @@ libxvmc12:1.0.10-1
 libxxf86dga12:1.1.4-1
 libxxf86vm11:1.1.4-1
 libzstd11.3.3+dfsg-2ubuntu1.2
-locales2.27-3ubuntu1.4
+locales2.27-3ubuntu1.5
 login1:4.5-1ubuntu2.2
 lsb-base9.20170808ubuntu1
 lsb-release9.20170808ubuntu1
