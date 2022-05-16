@@ -13,10 +13,10 @@ ca-certificates20210119~18.04.2
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
-curl7.58.0-2ubuntu3.17
+curl7.58.0-2ubuntu3.18
 dash0.5.8-2.10
-dbus1.12.2-1ubuntu1.2
-dbus-x111.12.2-1ubuntu1.2
+dbus1.12.2-1ubuntu1.3
+dbus-x111.12.2-1ubuntu1.3
 dconf-gsettings-backend0.26.0-2ubuntu3
 dconf-service0.26.0-2ubuntu3
 debconf1.5.66ubuntu1
@@ -24,7 +24,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
 distro-info-data0.37ubuntu0.14
-docker-ce-cli5:20.10.14~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.15~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7
@@ -103,10 +103,10 @@ libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.3
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.8
-libcurl47.58.0-2ubuntu3.17
+libcurl47.58.0-2ubuntu3.18
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
-libdbus-1-31.12.2-1ubuntu1.2
+libdbus-1-31.12.2-1ubuntu1.3
 libdbus-glib-1-20.110-2
 libdbusmenu-glib416.04.1+18.04.20171206-0ubuntu2
 libdbusmenu-gtk3-416.04.1+18.04.20171206-0ubuntu2
@@ -204,7 +204,7 @@ libnettle63.4.1-0ubuntu0.18.04.1
 libnghttp2-141.30.0-1ubuntu1
 libnpth01.5-3
 libnspr42:4.18-1ubuntu1
-libnss32:3.35-2ubuntu2.13
+libnss32:3.35-2ubuntu2.14
 libobrender32v53.6.1-7ubuntu0.1
 libobt2v53.6.1-7ubuntu0.1
 libogg01.3.2-1
@@ -270,7 +270,7 @@ libsoup-gnome2.4-12.62.1-1ubuntu0.4
 libspeexdsp11.2~rc1.2-1ubuntu2.1
 libspice-client-glib-2.0-80.34-1.1build1
 libspice-client-gtk-3.0-50.34-1.1build1
-libsqlite3-03.22.0-1ubuntu0.4
+libsqlite3-03.22.0-1ubuntu0.5
 libss21.44.1-1ubuntu1.3
 libssh-40.8.0~20170825.94fa1e38-1ubuntu0.7
 libssl1.0.01.0.2n-1ubuntu5.9
@@ -378,8 +378,8 @@ nodejs14.19.2-1nodesource1
 nxproxy2:3.5.99.16-1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
-openssh-client1:7.6p1-4ubuntu0.6
-openssl1.1.1-1ubuntu2.1~18.04.15
+openssh-client1:7.6p1-4ubuntu0.7
+openssl1.1.1-1ubuntu2.1~18.04.17
 passwd1:4.5-1ubuntu2.2
 perl-base5.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
