@@ -43,4 +43,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "19.06.22:", desc: "Rebase to Focal. Drop Telepathy plugin due to lack of packages." }
   - { date: "27.03.20:", desc: "Initial release." }

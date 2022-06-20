@@ -227,4 +227,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.06.22:** - Rebase to Focal. Drop Telepathy plugin due to lack of packages.
 * **27.03.20:** - Initial release.
