@@ -5,11 +5,11 @@ adwaita-icon-theme3.36.1-2ubuntu0.20.04.2
 apg2.2.3.dfsg.1-5
 apport2.20.11-0ubuntu27.24
 apport-symptoms0.23
-apt2.0.8
+apt2.0.9
 aptdaemon1.1.1+bzr982-0ubuntu32.3
 aptdaemon-data1.1.1+bzr982-0ubuntu32.3
 apt-transport-https2.0.9
-apt-utils2.0.8
+apt-utils2.0.9
 aspell0.60.8-1ubuntu0.1
 aspell-en2018.04.16-0-1
 at-spi2-core2.36.0-2
@@ -179,7 +179,7 @@ libacl12.2.53-6
 libapparmor12.13.3-7ubuntu5.1
 libappindicator3-112.10.1+20.04.20200408.1-0ubuntu1
 libappstream40.12.10-2
-libapt-pkg6.02.0.8
+libapt-pkg6.02.0.9
 libarchive133.4.0-2ubuntu1.2
 libargon2-10~20171227-0.2
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
@@ -458,10 +458,10 @@ liblzo2-22.10-2
 libmagic11:5.38-4
 libmagic-mgc1:5.38-4
 libmaxminddb01.4.2-0ubuntu1.20.04.1
-libmbim-glib41.24.8-1~20.04
-libmbim-proxy1.24.8-1~20.04
+libmbim-glib41.26.2-1~ubuntu20.04.1
+libmbim-proxy1.26.2-1~ubuntu20.04.1
 libmediaart-2.0-01.9.4-2
-libmm-glib01.16.6-2~20.04.1
+libmm-glib01.18.6-1~ubuntu20.04.1
 libmnl01.0.4-2
 libmount12.34-0.1ubuntu9.3
 libmozjs-68-068.6.0-1ubuntu1
@@ -549,8 +549,8 @@ libpython3.83.8.10-0ubuntu1~20.04.4
 libpython3.8-minimal3.8.10-0ubuntu1~20.04.4
 libpython3.8-stdlib3.8.10-0ubuntu1~20.04.4
 libpython3-stdlib3.8.2-0ubuntu2
-libqmi-glib51.28.6-1~20.04.1
-libqmi-proxy1.28.6-1~20.04.1
+libqmi-glib51.30.4-1~ubuntu20.04.1
+libqmi-proxy1.30.4-1~ubuntu20.04.1
 libqt5core5a5.12.8+dfsg-0ubuntu2.1
 libqt5dbus55.12.8+dfsg-0ubuntu2.1
 libqt5gui55.12.8+dfsg-0ubuntu2.1
@@ -752,7 +752,7 @@ mesa-va-drivers21.2.6-0ubuntu0.1~20.04.2
 mesa-vulkan-drivers21.2.6-0ubuntu0.1~20.04.2
 mime-support3.64ubuntu1
 mobile-broadband-provider-info20190618-3
-modemmanager1.16.6-2~20.04.1
+modemmanager1.18.6-1~ubuntu20.04.1
 mount2.34-0.1ubuntu9.3
 mousetweaks3.32.0-2
 mutter3.36.9-0ubuntu0.20.04.2
