@@ -599,8 +599,8 @@ libsmartcols12.34-0.1ubuntu9.3
 libsmbclient2:4.13.17~dfsg-0ubuntu1.20.04.1
 libsnapd-glib11.58-0ubuntu0.20.04.0
 libsndfile11.0.28-7ubuntu0.1
-libsnmp355.8+dfsg-2ubuntu2.4
-libsnmp-base5.8+dfsg-2ubuntu2.4
+libsnmp355.8+dfsg-2ubuntu2.5
+libsnmp-base5.8+dfsg-2ubuntu2.5
 libsodium231.0.18-1
 libsoup2.4-12.70.0-1
 libsoup-gnome2.4-12.70.0-1
