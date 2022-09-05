@@ -96,7 +96,7 @@ gir1.2-json-1.01.4.4-2ubuntu2
 gir1.2-mutter-63.36.9-0ubuntu0.20.04.2
 gir1.2-nm-1.01.22.10-1ubuntu2.3
 gir1.2-nma-1.01.8.24-1ubuntu3
-gir1.2-notify-0.70.7.9-1ubuntu2
+gir1.2-notify-0.70.7.9-1ubuntu3.20.04.2
 gir1.2-packagekitglib-1.01.1.13-2ubuntu1.1
 gir1.2-pango-1.01.44.7-2ubuntu4
 gir1.2-polkit-1.00.105-26ubuntu1.3
@@ -243,7 +243,7 @@ libcrack22.9.6-3.2
 libcrypt11:4.4.10-10ubuntu4
 libcryptsetup122:2.2.2-3ubuntu2.4
 libcups22.3.1-9ubuntu1.2
-libcurl3-gnutls7.68.0-1ubuntu2.12
+libcurl3-gnutls7.68.0-1ubuntu2.13
 libcurl47.68.0-1ubuntu2.12
 libdaemon00.14-7
 libdatrie10.2.12-3
@@ -487,7 +487,7 @@ libnl-genl-3-2003.4.0-1
 libnl-route-3-2003.4.0-1
 libnm01.22.10-1ubuntu2.3
 libnma01.8.24-1ubuntu3
-libnotify40.7.9-1ubuntu2
+libnotify40.7.9-1ubuntu3.20.04.2
 libnpth01.6-1
 libnspr42:4.25-1
 libnss32:3.49.1-1ubuntu1.8
