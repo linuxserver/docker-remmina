@@ -36,7 +36,7 @@ cpp-99.4.0-1ubuntu1~20.04.1
 cracklib-runtime2.9.6-3.2
 crda3.18-1build1
 cups-pk-helper0.2.6-1ubuntu3
-curl7.68.0-1ubuntu2.12
+curl7.68.0-1ubuntu2.13
 dash0.5.10.2-6
 dbus1.12.16-2ubuntu2.2
 dbus-user-session1.12.16-2ubuntu2.2
@@ -244,7 +244,7 @@ libcrypt11:4.4.10-10ubuntu4
 libcryptsetup122:2.2.2-3ubuntu2.4
 libcups22.3.1-9ubuntu1.2
 libcurl3-gnutls7.68.0-1ubuntu2.13
-libcurl47.68.0-1ubuntu2.12
+libcurl47.68.0-1ubuntu2.13
 libdaemon00.14-7
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
@@ -881,7 +881,7 @@ systemd-sysv245.4-4ubuntu3.17
 systemd-timesyncd245.4-4ubuntu3.17
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.2
-tzdata2022a-0ubuntu0.20.04
+tzdata2022c-0ubuntu0.20.04.0
 ubuntu-docs20.04.3
 ubuntu-keyring2020.02.11.4
 ubuntu-mono19.04-0ubuntu3
