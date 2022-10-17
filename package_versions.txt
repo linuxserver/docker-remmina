@@ -890,7 +890,7 @@ ubuntu-wallpapers20.04.2-0ubuntu1
 ubuntu-wallpapers-focal20.04.2-0ubuntu1
 ucf3.0038+nmu1
 udev245.4-4ubuntu3.18
-unzip6.0-25ubuntu1
+unzip6.0-25ubuntu1.1
 update-inetd4.50
 upower0.99.11-1build2
 usb.ids2020.03.19-1
