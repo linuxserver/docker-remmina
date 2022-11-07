@@ -764,7 +764,7 @@ netbase6.1
 network-manager1.22.10-1ubuntu2.3
 network-manager-gnome1.8.24-1ubuntu3
 network-manager-pptp1.2.8-2
-nodejs14.20.1-deb-1nodesource1
+nodejs14.21.1-deb-1nodesource1
 nxproxy2:3.5.99.23-1build1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-9ubuntu0.20.04.1
@@ -881,7 +881,7 @@ systemd-sysv245.4-4ubuntu3.18
 systemd-timesyncd245.4-4ubuntu3.18
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.2
-tzdata2022c-0ubuntu0.20.04.0
+tzdata2022e-0ubuntu0.20.04.0
 ubuntu-docs20.04.3
 ubuntu-keyring2020.02.11.4
 ubuntu-mono19.04-0ubuntu3
