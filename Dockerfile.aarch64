@@ -1,4 +1,6 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:arm64v8-focal
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-rdesktop-web:arm64v8-jammy
 
 # set version label
 ARG BUILD_DATE
@@ -13,23 +15,27 @@ RUN \
   apt-get install -y \
     remmina \
     remmina-plugin-exec \
-    remmina-plugin-nx \
-    remmina-plugin-rdp \
-    remmina-plugin-spice \
+    remmina-plugin-kiosk \
     remmina-plugin-kwallet \
+    remmina-plugin-rdp \
+    remmina-plugin-secret \
+    remmina-plugin-spice \
     remmina-plugin-vnc \
     remmina-plugin-www \    
-    remmina-plugin-xdmcp && \
+    remmina-plugin-xdmcp \
+    remmina-plugin-x2go && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
     /tmp/* \
     /var/lib/apt/lists/* \
-    /var/tmp/*
+    /var/tmp/* \
+    /var/log/*
 
 # add local files
 COPY /root /
 
 # ports and volumes
 EXPOSE 3000
+
 VOLUME /config
