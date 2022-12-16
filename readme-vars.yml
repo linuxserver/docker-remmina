@@ -43,5 +43,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "16.12.22:", desc: "Rebase to Jammy. Drop nx, xdmcp plugins due to lack of packages. Add Kiosk, Secret, x2go plugins." }
   - { date: "19.06.22:", desc: "Rebase to Focal. Drop Telepathy plugin due to lack of packages." }
   - { date: "27.03.20:", desc: "Initial release." }
