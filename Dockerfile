@@ -21,8 +21,7 @@ RUN \
     remmina-plugin-secret \
     remmina-plugin-spice \
     remmina-plugin-vnc \
-    remmina-plugin-www \    
-    remmina-plugin-xdmcp \
+    remmina-plugin-www \
     remmina-plugin-x2go && \
   echo "**** cleanup ****" && \
   apt-get clean && \
