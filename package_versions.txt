@@ -24,7 +24,7 @@ NAME                                                                          VE
 @tootallnate/once                                                             2.0.0                                              npm        
 @types/cookie                                                                 0.4.1                                              npm        
 @types/cors                                                                   2.8.13                                             npm        
-@types/node                                                                   20.3.1                                             npm        
+@types/node                                                                   20.3.3                                             npm        
 PyGObject                                                                     3.42.1                                             python     
 PyHoca-CLI                                                                    0.6.1.2                                            python     
 PyJWT                                                                         2.3.0                                              python     
@@ -145,7 +145,7 @@ emoji-regex                                                                   8.
 enchant-2                                                                     2.3.2-1ubuntu2                                     deb        
 encodeurl                                                                     1.0.2                                              npm        
 encoding                                                                      0.1.13                                             npm        
-engine.io                                                                     6.5.0                                              npm        
+engine.io                                                                     6.5.1                                              npm        
 engine.io-parser                                                              5.1.0                                              npm        
 env-paths                                                                     2.2.1                                              npm        
 err-code                                                                      2.0.3                                              npm        
@@ -549,7 +549,7 @@ libcairo-gobject2                                                             1.
 libcairo2                                                                     1.16.0-5ubuntu2                                    deb        
 libcanberra0                                                                  0.30-10ubuntu1.22.04.1                             deb        
 libcap-ng0                                                                    0.7.9-2.2build3                                    deb        
-libcap2                                                                       1:2.44-1build3                                     deb        
+libcap2                                                                       1:2.44-1ubuntu0.22.04.1                            deb        
 libcap2-bin                                                                   1:2.44-1ubuntu0.22.04.1                            deb        
 libcbor0.8                                                                    0.8.0-2ubuntu1                                     deb        
 libcdio-cdda2                                                                 10.2+2.0.0-1build3                                 deb        
@@ -665,8 +665,8 @@ libidn2-0                                                                     2.
 libiec61883-0                                                                 1.2.0-4build3                                      deb        
 libigdgmm12                                                                   22.1.2+ds1-1                                       deb        
 libimlib2                                                                     1.7.4-1build1                                      deb        
-libinput-bin                                                                  1.20.0-1ubuntu0.2                                  deb        
-libinput10                                                                    1.20.0-1ubuntu0.2                                  deb        
+libinput-bin                                                                  1.20.0-1ubuntu0.3                                  deb        
+libinput10                                                                    1.20.0-1ubuntu0.3                                  deb        
 libip4tc2                                                                     1.8.7-1ubuntu5.1                                   deb        
 libip6tc2                                                                     1.8.7-1ubuntu5.1                                   deb        
 libisl23                                                                      0.24-2build1                                       deb        
@@ -1243,7 +1243,7 @@ sigstore                                                                      1.
 simplejson                                                                    3.17.6                                             python     
 six                                                                           1.16.0                                             python     
 smart-buffer                                                                  4.2.0                                              npm        
-socket.io                                                                     4.7.0                                              npm        
+socket.io                                                                     4.7.1                                              npm        
 socket.io-adapter                                                             2.5.2                                              npm        
 socket.io-parser                                                              4.2.4                                              npm        
 socks                                                                         2.7.1                                              npm        
