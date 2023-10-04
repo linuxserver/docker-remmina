@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                     npm        
 @types/cookie                                                                 0.4.1                                     npm        
 @types/cors                                                                   2.8.14                                    npm        
-@types/node                                                                   20.6.3                                    npm        
+@types/node                                                                   20.8.0                                    npm        
 PyGObject                                                                     3.42.1                                    python     
 PyHoca-CLI                                                                    0.6.1.2                                   python     
 PyJWT                                                                         2.3.0                                     python     
@@ -784,8 +784,8 @@ libflite1                                                                     2.
 libfontconfig1                                                                2.13.1-4.2ubuntu5                         deb        
 libfontembed1                                                                 1.28.15-0ubuntu1.2                        deb        
 libfontenc1                                                                   1:1.1.4-1build3                           deb        
-libfreerdp-client2-2                                                          2.6.1+dfsg1-3ubuntu2.3                    deb        
-libfreerdp2-2                                                                 2.6.1+dfsg1-3ubuntu2.3                    deb        
+libfreerdp-client2-2                                                          2.6.1+dfsg1-3ubuntu2.4                    deb        
+libfreerdp2-2                                                                 2.6.1+dfsg1-3ubuntu2.4                    deb        
 libfreetype6                                                                  2.11.1+dfsg-1ubuntu0.2                    deb        
 libfribidi0                                                                   1.0.8-2ubuntu3.1                          deb        
 libfuse3-3                                                                    3.10.5-1build1                            deb        
@@ -1162,7 +1162,7 @@ libwebp7                                                                      1.
 libwebpdemux2                                                                 1.2.2-2ubuntu0.22.04.2                    deb        
 libwebpmux3                                                                   1.2.2-2ubuntu0.22.04.2                    deb        
 libwebrtc-audio-processing1                                                   0.3.1-0ubuntu5                            deb        
-libwinpr2-2                                                                   2.6.1+dfsg1-3ubuntu2.3                    deb        
+libwinpr2-2                                                                   2.6.1+dfsg1-3ubuntu2.4                    deb        
 libwoff1                                                                      1.0.2-1build4                             deb        
 libwpe-1.0-1                                                                  1.14.0-0ubuntu0.22.04.1                   deb        
 libwpebackend-fdo-1.0-1                                                       1.14.2-0ubuntu0.22.04.1                   deb        
