@@ -173,7 +173,7 @@ enchant-2                                                                     2.
 encodeurl                                                                     1.0.2                                    npm                         
 encoding                                                                      0.1.13                                   npm                         
 engine.io                                                                     6.5.5                                    npm                         
-engine.io-parser                                                              5.2.2                                    npm                         
+engine.io-parser                                                              5.2.3                                    npm                         
 env-paths                                                                     2.2.1                                    npm                         
 err-code                                                                      2.0.3                                    npm                         
 es-define-property                                                            1.0.0                                    npm                         
@@ -576,7 +576,7 @@ gstreamer1.0-gl                                                               1.
 gstreamer1.0-plugins-base                                                     1.20.1-1ubuntu0.2                        deb                         
 gstreamer1.0-plugins-good                                                     1.20.3-0ubuntu1.1                        deb                         
 gstreamer1.0-x                                                                1.20.1-1ubuntu0.2                        deb                         
-gtk-update-icon-cache                                                         3.24.33-1ubuntu2.1                       deb                         
+gtk-update-icon-cache                                                         3.24.33-1ubuntu2.2                       deb                         
 gzip                                                                          1.10-4ubuntu4.1                          deb                         
 has                                                                           1.0.3                                    npm                         
 has-flag                                                                      4.0.0                                    npm        (+1 duplicate)   
@@ -828,9 +828,9 @@ libgstreamer-gl1.0-0                                                          1.
 libgstreamer-plugins-base1.0-0                                                1.20.1-1ubuntu0.2                        deb                         
 libgstreamer-plugins-good1.0-0                                                1.20.3-0ubuntu1.1                        deb                         
 libgstreamer1.0-0                                                             1.20.3-0ubuntu1                          deb                         
-libgtk-3-0                                                                    3.24.33-1ubuntu2.1                       deb                         
-libgtk-3-bin                                                                  3.24.33-1ubuntu2.1                       deb                         
-libgtk-3-common                                                               3.24.33-1ubuntu2.1                       deb                         
+libgtk-3-0                                                                    3.24.33-1ubuntu2.2                       deb                         
+libgtk-3-bin                                                                  3.24.33-1ubuntu2.2                       deb                         
+libgtk-3-common                                                               3.24.33-1ubuntu2.2                       deb                         
 libgudev-1.0-0                                                                1:237-2build1                            deb                         
 libharfbuzz-icu0                                                              2.7.4-1ubuntu3.1                         deb                         
 libharfbuzz0b                                                                 2.7.4-1ubuntu3.1                         deb                         
@@ -1024,8 +1024,8 @@ libpsl5                                                                       0.
 libpulse0                                                                     1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 libpulsedsp                                                                   1:15.99.1+dfsg1-1ubuntu2.2               deb                         
 libpython3-stdlib                                                             3.10.6-1~22.04                           deb                         
-libpython3.10-minimal                                                         3.10.12-1~22.04.3                        deb                         
-libpython3.10-stdlib                                                          3.10.12-1~22.04.3                        deb                         
+libpython3.10-minimal                                                         3.10.12-1~22.04.4                        deb                         
+libpython3.10-stdlib                                                          3.10.12-1~22.04.4                        deb                         
 libqpdf28                                                                     10.6.3-1                                 deb                         
 libqt5core5a                                                                  5.15.3+dfsg-2ubuntu0.2                   deb                         
 libqt5dbus5                                                                   5.15.3+dfsg-2ubuntu0.2                   deb                         
@@ -1403,8 +1403,8 @@ python3-xlib                                                                  0.
 python3-zipp                                                                  1.0.0-3                                  deb                         
 python3-zope.event                                                            4.4-3                                    deb                         
 python3-zope.interface                                                        5.4.0-1build1                            deb                         
-python3.10                                                                    3.10.12-1~22.04.3                        deb                         
-python3.10-minimal                                                            3.10.12-1~22.04.3                        deb                         
+python3.10                                                                    3.10.12-1~22.04.4                        deb                         
+python3.10-minimal                                                            3.10.12-1~22.04.4                        deb                         
 qrcode-terminal                                                               0.12.0                                   npm                         
 qs                                                                            6.11.0                                   npm                         
 qt5-gtk-platformtheme                                                         5.15.3+dfsg-2ubuntu0.2                   deb                         
@@ -1502,7 +1502,7 @@ toidentifier                                                                  1.
 treeverse                                                                     3.0.0                                    npm                         
 tuf-js                                                                        1.1.6                                    npm                         
 type-is                                                                       1.6.18                                   npm                         
-tzdata                                                                        2024a-0ubuntu0.22.04                     deb                         
+tzdata                                                                        2024a-0ubuntu0.22.04.1                   deb                         
 ubuntu-keyring                                                                2021.03.26                               deb                         
 ubuntu-mono                                                                   20.10-0ubuntu2                           deb                         
 ucf                                                                           3.0043                                   deb                         
@@ -1550,8 +1550,8 @@ xfonts-base                                                                   1:
 xfonts-encodings                                                              1:1.0.5-0ubuntu2                         deb                         
 xfonts-utils                                                                  1:7.7+6build2                            deb                         
 xkb-data                                                                      2.33-1                                   deb                         
-xserver-common                                                                2:21.1.4-2ubuntu1.7~22.04.10             deb                         
-xserver-xorg-core                                                             2:21.1.4-2ubuntu1.7~22.04.10             deb                         
+xserver-common                                                                2:21.1.4-2ubuntu1.7~22.04.11             deb                         
+xserver-xorg-core                                                             2:21.1.4-2ubuntu1.7~22.04.11             deb                         
 xserver-xorg-video-amdgpu                                                     22.0.0-1ubuntu0.2                        deb                         
 xserver-xorg-video-ati                                                        1:19.1.0-2ubuntu1                        deb                         
 xserver-xorg-video-intel                                                      2:2.99.917+git20210115-1                 deb                         
