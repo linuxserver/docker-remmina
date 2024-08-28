@@ -21,7 +21,7 @@ jobs:
           echo "> [!NOTE]" >> $GITHUB_STEP_SUMMARY
           echo "> External trigger running off of master branch. To disable this trigger, set a Github secret named \`PAUSE_EXTERNAL_TRIGGER_REMMINA_MASTER\`" >> $GITHUB_STEP_SUMMARY
           printf "\n## Retrieving external version\n\n" >> $GITHUB_STEP_SUMMARY
-          EXT_RELEASE=$(curl -sX GET http://archive.ubuntu.com/ubuntu/dists/focal/main/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: remmina' | awk -F ': ' '/Version/{print $2;exit}')
+          EXT_RELEASE=$(curl -sX GET http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: remmina' | awk -F ': ' '/Version/{print $2;exit}')
           echo "Type is \`custom_version_command\`" >> $GITHUB_STEP_SUMMARY
           if [ -z "${EXT_RELEASE}" ] || [ "${EXT_RELEASE}" == "null" ]; then
             echo "> [!WARNING]" >> $GITHUB_STEP_SUMMARY
