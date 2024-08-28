@@ -5,7 +5,7 @@ FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntunoble
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG REMMINA_VERSION
+ARG REMMINA_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
@@ -17,19 +17,22 @@ RUN \
   curl -o \
     /kclient/public/icon.png \
     https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/remmina-logo.png && \
-  echo "**** install packages ****" && \
+  echo "**** install remmina ****" && \
+  if [ -z "${REMMINA_RELEASE}" ]; then \
+    REMMINA_RELEASE=$(curl -sX GET http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: remmina' | awk -F ': ' '/Version/{print $2;exit}'); \
+  fi && \
   apt-get update && \
   apt-get install -y \
-    remmina \
-    remmina-plugin-exec \
-    remmina-plugin-kiosk \
-    remmina-plugin-kwallet \
-    remmina-plugin-rdp \
-    remmina-plugin-secret \
-    remmina-plugin-spice \
-    remmina-plugin-vnc \
-    remmina-plugin-www \
-    remmina-plugin-x2go && \
+    remmina="${REMMINA_RELEASE}" \
+    remmina-plugin-exec="${REMMINA_RELEASE}" \
+    remmina-plugin-kiosk="${REMMINA_RELEASE}" \
+    remmina-plugin-kwallet="${REMMINA_RELEASE}" \
+    remmina-plugin-rdp="${REMMINA_RELEASE}" \
+    remmina-plugin-secret="${REMMINA_RELEASE}" \
+    remmina-plugin-spice="${REMMINA_RELEASE}" \
+    remmina-plugin-vnc="${REMMINA_RELEASE}" \
+    remmina-plugin-www="${REMMINA_RELEASE}" \
+    remmina-plugin-x2go="${REMMINA_RELEASE}" && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apt-get clean && \
