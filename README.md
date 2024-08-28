@@ -128,7 +128,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/config:/config
+      - /path/to/remmina/config:/config
     ports:
       - 3000:3000
       - 3001:3001
@@ -145,7 +145,7 @@ docker run -d \
   -e TZ=Etc/UTC \
   -p 3000:3000 \
   -p 3001:3001 \
-  -v /path/to/config:/config \
+  -v /path/to/remmina/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/remmina:latest
 ```
@@ -324,6 +324,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.08.24:** - Rebase to noble.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **18.03.23:** - Rebase to KasmVNC base image.
 * **16.12.22:** - Rebase to Jammy. Drop nx, xdmcp plugins due to lack of packages. Add Kiosk, Secret, x2go plugins.
