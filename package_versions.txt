@@ -919,6 +919,7 @@ libraw1394-11                                                                 2.
 libreadline8t64                                                               8.2-4build1                                deb                         
 librhash0                                                                     1.4.3-3build1                              deb                         
 librsvg2-2                                                                    2.58.0+dfsg-1build1                        deb                         
+librsvg2-common                                                               2.58.0+dfsg-1build1                        deb                         
 librtmp1                                                                      2.4+20151223.gitfa8646d.1-2build7          deb                         
 libsamplerate0                                                                0.2.2-4build1                              deb                         
 libsasl2-2                                                                    2.1.28+dfsg1-5ubuntu3.1                    deb                         
