@@ -422,6 +422,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **11.08.25:** - Install librsvg2 for icons.
 * **12.07.25:** - Rebase to Selkies, HTTPS IS NOW REQUIRED.
 * **28.08.24:** - Rebase to noble.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.

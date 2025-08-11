@@ -23,6 +23,7 @@ RUN \
   fi && \
   apt-get update && \
   apt-get install -y \
+    librsvg2-common \
     remmina="${REMMINA_RELEASE}" \
     remmina-plugin-exec="${REMMINA_RELEASE}" \
     remmina-plugin-kiosk="${REMMINA_RELEASE}" \
