@@ -98,6 +98,7 @@ init_diagram: |
   "remmina:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "14.08.25:", desc: "Ingest from PPA."}
   - {date: "11.08.25:", desc: "Install librsvg2 for icons."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "28.08.24:", desc: "Rebase to noble."}
