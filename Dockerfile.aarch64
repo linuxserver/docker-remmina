@@ -22,7 +22,7 @@ RUN \
   apt-get update && \
   apt-get install -y \
     librsvg2-common \
-    remmina \
+    "remmina${REMMINA_RELEASE:+=$REMMINA_RELEASE}" \
     remmina-plugin-exec \
     remmina-plugin-kiosk \
     remmina-plugin-kwallet \
