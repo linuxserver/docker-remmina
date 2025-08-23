@@ -895,8 +895,8 @@ libproxy1v5                                                                   0.
 libpsl5t64                                                                    0.21.2-1.1build1                                            deb                         
 libpulse0                                                                     1:16.1+dfsg1-2ubuntu10.1                                    deb                         
 libpython3-stdlib                                                             3.12.3-0ubuntu2                                             deb                         
-libpython3.12-minimal                                                         3.12.3-1ubuntu0.7                                           deb                         
-libpython3.12-stdlib                                                          3.12.3-1ubuntu0.7                                           deb                         
+libpython3.12-minimal                                                         3.12.3-1ubuntu0.8                                           deb                         
+libpython3.12-stdlib                                                          3.12.3-1ubuntu0.8                                           deb                         
 libqca-qt5-2                                                                  2.3.8-1build3                                               deb                         
 libqca-qt5-2-plugins                                                          2.3.8-1build3                                               deb                         
 libqt5core5t64                                                                5.15.13+dfsg-1ubuntu1                                       deb                         
@@ -975,7 +975,7 @@ libtext-iconv-perl                                                            1.
 libthai-data                                                                  0.1.29-2build1                                              deb                         
 libthai0                                                                      0.1.29-2build1                                              deb                         
 libtheora0                                                                    1.1.1+dfsg.1-16.1build3                                     deb                         
-libtiff6                                                                      4.5.1+git230720-4ubuntu2.2                                  deb                         
+libtiff6                                                                      4.5.1+git230720-4ubuntu2.3                                  deb                         
 libtinfo6                                                                     6.4+20240113-1ubuntu2                                       deb                         
 libtsan2                                                                      14.2.0-4ubuntu2~24.04                                       deb                         
 libtwolame0                                                                   0.4.0-2build3                                               deb                         
@@ -1201,9 +1201,9 @@ python3-x2go                                                                  0.
 python3-xlib                                                                  0.33-2                                                      deb                         
 python3-zope.event                                                            5.0-0.1                                                     deb                         
 python3-zope.interface                                                        6.1-1build1                                                 deb                         
-python3.12                                                                    3.12.3-1ubuntu0.7                                           deb                         
-python3.12-minimal                                                            3.12.3-1ubuntu0.7                                           deb                         
-python3.12-venv                                                               3.12.3-1ubuntu0.7                                           deb                         
+python3.12                                                                    3.12.3-1ubuntu0.8                                           deb                         
+python3.12-minimal                                                            3.12.3-1ubuntu0.8                                           deb                         
+python3.12-venv                                                               3.12.3-1ubuntu0.8                                           deb                         
 qt5-gtk-platformtheme                                                         5.15.13+dfsg-1ubuntu1                                       deb                         
 qtspeech5-speechd-plugin                                                      5.15.13-1                                                   deb                         
 qttranslations5-l10n                                                          5.15.13-1                                                   deb                         
