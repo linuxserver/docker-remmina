@@ -105,6 +105,7 @@ init_diagram: |
   "remmina:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "14.08.25:", desc: "Ingest from PPA."}
   - {date: "11.08.25:", desc: "Install librsvg2 for icons."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
