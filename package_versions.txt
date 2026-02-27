@@ -60,7 +60,7 @@ cryptography                                                                  46
 cups-bsd                                                                      2.4.7-1.2ubuntu7.9                                               deb                         
 cups-client                                                                   2.4.7-1.2ubuntu7.9                                               deb                         
 cups-common                                                                   2.4.7-1.2ubuntu7.9                                               deb                         
-curl                                                                          8.5.0-2ubuntu10.6                                                deb                         
+curl                                                                          8.5.0-2ubuntu10.7                                                deb                         
 dario.cat/mergo                                                               v1.0.2                                                           go-module  (+1 duplicate)   
 dash                                                                          0.5.12-6ubuntu5                                                  deb                         
 dbus                                                                          1.14.10-4ubuntu4.1                                               deb                         
@@ -707,8 +707,8 @@ libcryptsetup12                                                               2:
 libctf-nobfd0                                                                 2.42-4ubuntu2.8                                                  deb                         
 libctf0                                                                       2.42-4ubuntu2.8                                                  deb                         
 libcups2t64                                                                   2.4.7-1.2ubuntu7.9                                               deb                         
-libcurl3t64-gnutls                                                            8.5.0-2ubuntu10.6                                                deb                         
-libcurl4t64                                                                   8.5.0-2ubuntu10.6                                                deb                         
+libcurl3t64-gnutls                                                            8.5.0-2ubuntu10.7                                                deb                         
+libcurl4t64                                                                   8.5.0-2ubuntu10.7                                                deb                         
 libdatrie1                                                                    0.2.13-3build1                                                   deb                         
 libdav1d7                                                                     1.4.1-1build1                                                    deb                         
 libdb5.3t64                                                                   5.3.28+dfsg2-7                                                   deb                         
@@ -1021,7 +1021,7 @@ libspice-client-glib-2.0-8                                                    0.
 libspice-client-gtk-3.0-5                                                     0.42-2ubuntu2                                                    deb                         
 libsqlite3-0                                                                  3.45.1-1ubuntu2.5                                                deb                         
 libss2                                                                        1.47.0-2.4~exp1ubuntu4.1                                         deb                         
-libssh-4                                                                      0.10.6-2ubuntu0.2                                                deb                         
+libssh-4                                                                      0.10.6-2ubuntu0.3                                                deb                         
 libssl3t64                                                                    3.0.13-0ubuntu3.7                                                deb                         
 libstartup-notification0                                                      0.12-6build3                                                     deb                         
 libstdc++-13-dev                                                              13.3.0-6ubuntu2~24.04.1                                          deb                         
@@ -1267,7 +1267,7 @@ python3-setproctitle                                                          1.
 python3-setuptools-whl                                                        68.1.2-2ubuntu1.2                                                deb                         
 python3-simplejson                                                            3.19.2-1build2                                                   deb                         
 python3-six                                                                   1.16.0-4                                                         deb                         
-python3-software-properties                                                   0.99.49.3                                                        deb                         
+python3-software-properties                                                   0.99.49.4                                                        deb                         
 python3-urllib3                                                               2.0.7-1ubuntu0.6                                                 deb                         
 python3-venv                                                                  3.12.3-0ubuntu2.1                                                deb                         
 python3-wadllib                                                               1.3.6-5                                                          deb                         
@@ -1283,17 +1283,17 @@ qtspeech5-speechd-plugin                                                      5.
 qttranslations5-l10n                                                          5.15.13-1                                                        deb                         
 qtwayland5                                                                    5.15.13-1                                                        deb                         
 readline-common                                                               8.2-4build1                                                      deb                         
-remmina                                                                       1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-common                                                                1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-exec                                                           1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-kiosk                                                          1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-kwallet                                                        1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-rdp                                                            1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-secret                                                         1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-spice                                                          1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-vnc                                                            1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-www                                                            1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
-remmina-plugin-x2go                                                           1.4.40+dfsg+ppa202509261331.r328d1747c.daa6d8c926~ubuntu24.04.1  deb                         
+remmina                                                                       1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-common                                                                1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-exec                                                           1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-kiosk                                                          1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-kwallet                                                        1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-rdp                                                            1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-secret                                                         1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-spice                                                          1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-vnc                                                            1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-www                                                            1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
+remmina-plugin-x2go                                                           1.4.43+dfsg+ppa202602271241.rd7ce97017.d5d06a5599~ubuntu24.04.1  deb                         
 requests                                                                      2.31.0                                                           python                      
 resenje.org/singleflight                                                      v0.4.3                                                           go-module                   
 rpcsvc-proto                                                                  1.4.2-0ubuntu7                                                   deb                         
@@ -1312,7 +1312,7 @@ sigs.k8s.io/structured-merge-diff/v6                                          v6
 sigs.k8s.io/yaml                                                              v1.6.0                                                           go-module  (+3 duplicates)  
 simplejson                                                                    3.19.2                                                           python                      
 six                                                                           1.16.0                                                           python                      
-software-properties-common                                                    0.99.49.3                                                        deb                         
+software-properties-common                                                    0.99.49.4                                                        deb                         
 sound-theme-freedesktop                                                       0.8-2ubuntu1                                                     deb                         
 spice-client-glib-usb-acl-helper                                              0.42-2ubuntu2                                                    deb                         
 sshfs                                                                         3.7.3-1.1build3                                                  deb                         
