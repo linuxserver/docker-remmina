@@ -105,6 +105,7 @@ init_diagram: |
   "remmina:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "04.04.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "14.08.25:", desc: "Ingest from PPA."}
   - {date: "11.08.25:", desc: "Install librsvg2 for icons."}
