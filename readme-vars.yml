@@ -105,6 +105,7 @@ init_diagram: |
   "remmina:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.06.26:", desc: "Rebase to resolute, stop ingesting from ppa."}
   - {date: "04.04.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "14.08.25:", desc: "Ingest from PPA."}

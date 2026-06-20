@@ -33,6 +33,7 @@ pipeline {
     CI_PORT = '3001'
     CI_SSL = 'true'
     CI_DELAY = '120'
+    CI_WEB_SCREENSHOT_DELAY = '30'
     CI_DOCKERENV = ''
     CI_AUTH = ''
     CI_WEBPATH = ''
@@ -149,7 +150,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://ppa.launchpad.net/remmina-ppa-team/remmina-next/ubuntu/dists/noble/main/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: remmina' | awk -F ': ' '/Version/{print $2;exit}' ''',
+            script: ''' curl -s -L https://archive.ubuntu.com/ubuntu/dists/resolute/universe/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: remmina' | awk -F ': ' '/Version/{print $2;exit}' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
@@ -894,6 +895,7 @@ pipeline {
                 --shm-size=1gb \
                 -v /var/run/docker.sock:/var/run/docker.sock \
                 -e IMAGE=\"${IMAGE}\" \
+                -e WEB_SCREENSHOT_DELAY=\"${CI_WEB_SCREENSHOT_DELAY}\" \
                 -e DOCKER_LOGS_TIMEOUT=\"${CI_DELAY}\" \
                 -e TAGS=\"${CI_TAGS}\" \
                 -e META_TAG=\"${META_TAG}\" \
