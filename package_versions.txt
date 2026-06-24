@@ -1159,7 +1159,7 @@ libva-x11-2                                                                   2.
 libva2                                                                        2.23.0-1ubuntu1                        deb                         
 libvdpau1                                                                     1.5-4                                  deb                         
 libvisual-0.4-0                                                               0.4.2-4                                deb                         
-libvncclient1                                                                 0.9.15+dfsg-3                          deb                         
+libvncclient1                                                                 0.9.15+dfsg-3ubuntu0.1                 deb                         
 libvorbis0a                                                                   1.3.7-3build2                          deb                         
 libvorbisenc2                                                                 1.3.7-3build2                          deb                         
 libvorbisfile3                                                                1.3.7-3build2                          deb                         
