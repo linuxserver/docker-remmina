@@ -36,6 +36,7 @@ RUN \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
+    /config/.cache \
     /tmp/* \
     /var/lib/apt/lists/* \
     /var/tmp/*
